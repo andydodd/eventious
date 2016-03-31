@@ -81,20 +81,15 @@ console.log(window.location);
 console.log(window.location.pathname.substr(window.location.pathname.lastIndexOf('/') + 1));
 
 
-var coreLocation = 'https://rumpr-1.appspot.com/core';
+var coreLocation = 'https://eventious-1.appspot.com/core';
 
-if(window.location.hostname === "dev-dot-slicethepie-0001.appspot.com"){
-	var coreLocation = 'https://dev_core.soundout.com';
+if(window.location.hostname === "http://eventious-1.appspot.com"){
+	var coreLocation = 'https://eventious-1.appspot.com/core';
 }
 
-
-
-if(window.location.hostname === "http://rumpr-1.appspot.com/"){
-	var coreLocation = 'https://rumpr-1.appspot.com/core';
-}
 
 var thisAppLocation = 'http://'+ window.location.hostname;
-var thisApp = 'rumpr';
+var thisApp = 'eventious';
 var hasPlayed = false;
 var confShown = false;
 var navOpen = false;
