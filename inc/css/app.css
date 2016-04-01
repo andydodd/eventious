@@ -370,7 +370,7 @@ p.bling{width:40%;padding-left:10%;font-size:50%;color:#697c89;font-style:italic
     height:100%;
 }
 
-#siteLogo{max-width: 20vmax;height:3vmax;margin:1vmax 0 1vmax 1vmax;background:transparent url(../img/logoSite.png) no-repeat left center;background-size:contain;cursor:pointer;}
+#siteLogo{max-width: 20vmax;height:3vmax;margin:1vmax 0 1vmax 1vmax;background:transparent url(../img/header-logo.png) no-repeat left center;background-size:contain;cursor:pointer;}
 
 .img_content{outline:1px solid rgba(116, 143, 163, 0.3);outline-offset: -1px;}
 .img_content_left{float:left;margin:0 1% 1% 0;}
